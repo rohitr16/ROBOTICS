@@ -1,6 +1,5 @@
 /**
  * \file
- *
  * \brief Empty user application template
  *
  */
