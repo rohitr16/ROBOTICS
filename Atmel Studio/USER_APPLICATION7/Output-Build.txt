@@ -1,0 +1,42 @@
+﻿------ Build started: Project: USER_APPLICATION7, Configuration: Debug AVR ------
+Build started.
+Project "USER_APPLICATION7.cproj" (default targets):
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "CoreBuild" in file "C:\Program Files (x86)\Atmel\Atmel Studio 6.0\Vs\Compiler.targets" from project "C:\Users\ROHIT\Documents\Atmel Studio\USER_APPLICATION7\USER_APPLICATION7\USER_APPLICATION7.cproj" (target "Build" depends on it):
+	Task "RunCompilerTask"
+		C:\Program Files (x86)\Atmel\Atmel Studio 6.0\make\make.exe all 
+		Building file: ../src/main.c
+		Invoking: AVR/GNU C Compiler : (AVR_8_bit_GNU_Toolchain_3.4.1_830) 4.6.2
+		"C:\Program Files (x86)\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.1.95\AVRToolchain\bin\avr-gcc.exe" -DBOARD=STK600_MEGA  -I"../src" -I"../src/asf/common/applications/user_application/atmega16_stk600-mega" -I"../src/asf/common/boards" -I"../src/asf/common/utils" -I"../src/asf/mega/utils" -I"../src/config"  -O1 -fdata-sections -ffunction-sections -g3 -Wall -c -Werror-implicit-function-declaration -Wmissing-prototypes -Wpointer-arith -Wstrict-prototypes -mrelax -std=gnu99 -MD -MP -MF "src/main.d" -MT"src/main.d" -MT"src/main.o"  -mmcu=atmega16   -o"src/main.o" "../src/main.c" 
+		In file included from ../src/main.c:13:0:
+c:\program files (x86)\atmel\atmel studio 6.0\extensions\atmel\avrgcc\3.4.1.95\avrtoolchain\bin\../lib/gcc/avr/4.6.2/../../../../avr/include/util/delay.h(90,3): #warning "F_CPU not defined for <util/delay.h>" [-Wcpp]
+C:\Users\ROHIT\Documents\Atmel Studio\USER_APPLICATION7\USER_APPLICATION7\src\main.c(18,2): return type defaults to 'int' [enabled by default]
+		../src/main.c: In function 'cmd':
+C:\Users\ROHIT\Documents\Atmel Studio\USER_APPLICATION7\USER_APPLICATION7\src\main.c(67,2): 'return' with no value, in function returning non-void [enabled by default]
+		../src/main.c: In function 'dat':
+C:\Users\ROHIT\Documents\Atmel Studio\USER_APPLICATION7\USER_APPLICATION7\src\main.c(75,2): 'return' with no value, in function returning non-void [enabled by default]
+		Finished building: ../src/main.c
+		Building target: USER_APPLICATION7.elf
+		Invoking: AVR/GNU Linker : (AVR_8_bit_GNU_Toolchain_3.4.1_830) 4.6.2
+		"C:\Program Files (x86)\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.1.95\AVRToolchain\bin\avr-gcc.exe" -o USER_APPLICATION7.elf  src/asf/mega/boards/stk600/rcx_x/init.o src/main.o   -Wl,-Map="USER_APPLICATION7.map" -Wl,--start-group  -Wl,--end-group -Wl,--gc-sections -mrelax -Wl,--relax  -mmcu=atmega16  
+		Finished building target: USER_APPLICATION7.elf
+		"C:\Program Files (x86)\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.1.95\AVRToolchain\bin\avr-objcopy.exe" -O ihex -R .eeprom -R .fuse -R .lock -R .signature  "USER_APPLICATION7.elf" "USER_APPLICATION7.hex"
+		"C:\Program Files (x86)\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.1.95\AVRToolchain\bin\avr-objcopy.exe" -j .eeprom  --set-section-flags=.eeprom=alloc,load --change-section-lma .eeprom=0  --no-change-warnings -O ihex "USER_APPLICATION7.elf" "USER_APPLICATION7.eep" || exit 0
+		"C:\Program Files (x86)\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.1.95\AVRToolchain\bin\avr-objdump.exe" -h -S "USER_APPLICATION7.elf" > "USER_APPLICATION7.lss"
+		"C:\Program Files (x86)\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.1.95\AVRToolchain\bin\avr-objcopy.exe" -O srec -R .eeprom -R .fuse -R .lock -R .signature  "USER_APPLICATION7.elf" "USER_APPLICATION7.srec"
+		"C:\Program Files (x86)\Atmel\Atmel Studio 6.0\extensions\Atmel\AVRGCC\3.4.1.95\AVRToolchain\bin\avr-size.exe" "USER_APPLICATION7.elf"
+		   text	   data	    bss	    dec	    hex	filename
+		    398	      8	      0	    406	    196	USER_APPLICATION7.elf
+	Done executing task "RunCompilerTask".
+	Task "RunOutputFileVerifyTask"
+				Program Memory Usage 	:	406 bytes   2.5 % Full
+				Data Memory Usage 		:	8 bytes   0.8 % Full
+	Done executing task "RunOutputFileVerifyTask".
+Done building target "CoreBuild" in project "USER_APPLICATION7.cproj".
+Target "PostBuildEvent" skipped, due to false condition; ('$(PostBuildEvent)' != '') was evaluated as ('' != '').
+Target "Build" in file "C:\Program Files (x86)\Atmel\Atmel Studio 6.0\Vs\Avr.common.targets" from project "C:\Users\ROHIT\Documents\Atmel Studio\USER_APPLICATION7\USER_APPLICATION7\USER_APPLICATION7.cproj" (entry point):
+Done building target "Build" in project "USER_APPLICATION7.cproj".
+Done building project "USER_APPLICATION7.cproj".
+
+Build succeeded.
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
