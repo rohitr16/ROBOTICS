@@ -1,0 +1,18 @@
+#include<avr/io.h>
+main()
+{int x;
+DDRB=0b00011110;
+DDRC=0b1110110;
+while(1)
+{
+x=PINC&0b0001001;
+if(x==0b0000000)
+PORTB=0b00011000;
+if(x==0b0000001)
+PORTB=0b00011010;
+if(x==0b0001000)
+PORTB=0b00010000;
+if(x==0b0001001)
+PORTB=0b00010010;
+}
+}

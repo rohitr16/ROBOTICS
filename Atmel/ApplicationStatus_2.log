@@ -1,0 +1,55 @@
+16:55:26.756: Constructing a new instance of Status Report Service
+16:55:26.756: Providing a new reference to the instance of Status Report Service
+16:55:26.756: Entering Initialize() of: Atmel.VsIde.AvrStudio.Project.Assembler.AssemblerPackage
+16:55:26.826: Entering constructor for: Atmel.VsIde.AvrStudio.Project.Gcc.AvrGccPackage
+16:55:26.826: Entering Initialize() of: Atmel.VsIde.AvrStudio.Project.Gcc.AvrGccPackage
+16:55:26.836: Entering constructor for: Atmel.VsIde.AvrStudio.LanguageServices.AvrGCCLanguage.AvrGCCLanguagePackage
+16:55:26.836: Entering Initialize() of: Atmel.VsIde.AvrStudio.LanguageServices.AvrGCCLanguage.AvrGCCLanguagePackage
+16:55:26.846: Entering constructor for: Atmel.VsIde.AvrStudio.Project.Gcc.CPPProjectPackage
+16:55:26.846: Entering Initialize() of: Atmel.VsIde.AvrStudio.Project.Gcc.CPPProjectPackage
+16:55:26.846: Entering constructor for: Atmel.VsIde.AvrStudio.Project.Gcc.CProjectPackage
+16:55:26.856: Entering Initialize() of: Atmel.VsIde.AvrStudio.Project.Gcc.CProjectPackage
+16:55:26.856: Entering constructor for: Atmel.VsIde.AvrStudio.Debugging.DebugCommands.DebugCommandsPackage
+16:55:26.866: Entering constructor for: Atmel.VsIde.AvrStudio.Services.TargetService.TargetManagerPackage
+16:55:26.866: Entering Initialize() of: Atmel.VsIde.AvrStudio.Services.TargetService.TargetManagerPackage
+16:55:26.926: Entering constructor for: Atmel.VsIde.AvrStudio.Services.ToolService.ToolServicePackage
+16:55:26.926: Initializing Atmel.VsIde.AvrStudio.Services.ToolService.ToolServicePackage
+16:55:26.966: 16:55:26: [INFO] Added ToolInfo: AVR Dragon
+16:55:26.966: 16:55:26: [INFO] Added ToolInfo: AVRISP mkII
+16:55:26.966: 16:55:26: [INFO] Added ToolInfo: AVR ONE!
+16:55:26.966: 16:55:26: [INFO] Added ToolInfo: JTAGICE3
+16:55:26.966: 16:55:26: [INFO] Added ToolInfo: JTAGICE mkII
+16:55:26.966: 16:55:26: [INFO] Added ToolInfo: QT600
+16:55:26.966: 16:55:26: [INFO] Added ToolInfo: SAM-ICE
+16:55:26.966: 16:55:26: [INFO] Added ToolInfo: AVR Simulator
+16:55:26.966: 16:55:26: [INFO] Added ToolInfo: STK500
+16:55:26.966: 16:55:26: [INFO] Added ToolInfo: STK600
+16:55:28.336: Entering constructor for: Atmel.VsIde.Common.DialogService.DialogServicePackage
+16:55:28.336: Entering Initialize() of: Atmel.VsIde.Common.DialogService.DialogServicePackage
+16:55:28.336: 16:55:28: [INFO] Starting avrdbg from: C:\Program Files (x86)\Atmel\Atmel Studio 6.0\avrdbg\avrdbg.exe
+16:55:28.356: 16:55:28: [INFO] Starting the avrdbg backend with the following options:
+<C:\Program Files (x86)\Atmel\Atmel Studio 6.0\avrdbg\avrdbg.exe  /connection-port=49180
+16:55:29.416: 16:55:29: [INFO] sending Hello System.Byte[]
+16:55:29.486: 16:55:29: [INFO] Connecting to backend at 127.0.0.1:49180
+16:55:29.776: Entering constructor for: Atmel.VsIde.AvrStudio.Services.DeviceService.DeviceServicePackage
+16:55:29.776: Entering Initialize() of: Atmel.VsIde.AvrStudio.Services.DeviceService.DeviceServicePackage
+16:55:29.826: 16:55:29: [INFO] sending peerAdded System.Byte[]
+16:55:29.826: 16:55:29: [INFO] The avrdbg process has started. 
+16:55:29.836: Entering constructor for: Atmel.EventsService.EventsServicePackage
+16:55:29.836: Entering Initialize() of: Atmel.EventsService.EventsServicePackage
+16:55:29.926: Entering constructor for: Atmel.VsIde.AvrStudio.Services.HelpService.HelpServicePackage
+16:55:29.926: Entering Initialize() of: Atmel.VsIde.AvrStudio.Services.HelpService.HelpServicePackage
+16:55:29.926: Entering constructor for: Atmel.VsIde.AvrStudio.LanguageServices.Packages.ServiceProviderImplementations
+16:55:29.926: Entering Initialize() of: Atmel.VsIde.AvrStudio.LanguageServices.Packages.ServiceProviderImplementations
+16:55:30.046: Entering constructor for: Atmel.VsIde.AvrStudio.Services.TargetService2.TargetService2Package
+16:55:30.046: Entering Initialize() of: Atmel.VsIde.AvrStudio.Services.TargetService2.TargetService2Package
+16:55:30.046: Entering constructor for: ToolchainProvider.AvrStudioToolchainExtensionPackage
+16:55:30.046: Entering Initialize() of: ToolchainProvider.AvrStudioToolchainExtensionPackage
+16:55:33.725: Entering Initialize() of: Atmel.Asf.AsfPackage
+16:55:33.825: Entering constructor for: Atmel.VsIde.AvrStudio.Asf.Service.AsfServicePackage
+16:55:33.825: Entering Initialize() of: Atmel.VsIde.AvrStudio.Asf.Service.AsfServicePackage
+16:55:34.275: Entering constructor for: Atmel.VsIde.AvrStudio.Extensions.AvrAssembler.AvrAssemblerToolchainPackage
+16:55:34.275: Entering Initialize() of: Atmel.VsIde.AvrStudio.Extensions.AvrAssembler.AvrAssemblerToolchainPackage
+16:55:39.477: Stream:setLogBits 380.025 msecs
+16:55:41.504: Entering constructor for: Atmel.AvrStudioInfoService.AvrStudioInfoServicePackage
+16:55:41.504: Entering Initialize() of: Atmel.AvrStudioInfoService.AvrStudioInfoServicePackage
